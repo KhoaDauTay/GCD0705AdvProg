@@ -6,8 +6,14 @@ namespace Inheritance
 	{
 		public string Name;
 		public string Address;
+		private string ID;
+		protected double weight;
 		//public Person Father;
 		//public Person Mother;
+
+		public Person()
+		{
+		}
 
 		public Person(string name, string address)
 		{
@@ -18,6 +24,7 @@ namespace Inheritance
 		public void Sleep()
 		{
 			Console.WriteLine("Sleeping...");
+			Console.WriteLine(ID);
 		}
 	}
 }

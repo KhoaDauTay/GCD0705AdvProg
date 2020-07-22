@@ -1,4 +1,6 @@
-﻿namespace Inheritance
+﻿using System;
+
+namespace Inheritance
 {
 	internal class Program
 	{
@@ -23,8 +25,18 @@
 
 			Person child = new Person();
 			child.Name = "Huy Mai";
+
+			//child.weight = 100;
 			//child.Father = father;
 			//child.Mother = mother;
+
+			Animal animal = new Animal();
+			Dog dog = new Dog();
+
+			animal.Eat();
+			dog.Eat();
+
+			Console.ReadLine();
 		}
 	}
 }
