@@ -6,12 +6,13 @@ namespace CustomStack
 	{
 		public bool IsEmpty()
 		{
-			return this.IsEmpty();
+			return Count == 0;
 		}
 
 		public Stack<string> AddRange()
 		{
-			return this.AddRange();
+			// Not enough information to implement
+			return null;
 		}
 	}
 }
