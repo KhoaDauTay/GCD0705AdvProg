@@ -8,16 +8,30 @@ namespace EncapsulationLab
 		private string _lastName;
 		private int _age;
 
-		public decimal Salary;
+		public decimal Salary
+		{
+			get
+			{
+				return Salary;
+			}
+			set
+			{
+				if (value < 460)
+					throw new ArgumentException("Salary cannot be less than 460");
+				Salary = value;
+			}
+		}
 
 		public string FirstName
 		{
 			get
 			{
-				return _firstName + "AAAAXXXXX";
+				return _firstName;
 			}
 			set
 			{
+				if (value.Length < 4)
+					throw new ArgumentException("First name cannot contain fewer than 3 symbols!");
 				_lastName = value;
 			}
 		}
@@ -26,10 +40,12 @@ namespace EncapsulationLab
 		{
 			get
 			{
-				return _lastName + "JAHGKASJHKAJ";
+				return _lastName;
 			}
 			set
 			{
+				if (value.Length < 4)
+					throw new ArgumentException("Last name cannot contain fewer than 3 symbols!");
 				_lastName = value;
 			}
 		}
@@ -42,7 +58,7 @@ namespace EncapsulationLab
 			}
 			set
 			{
-				if (value < 0) throw new ArgumentException("Age can't be negative");
+				if (value < 0) throw new ArgumentException("Age cannot be zero or a negative integer!");
 				_age = value;
 			}
 		}
@@ -69,7 +85,7 @@ namespace EncapsulationLab
 
 		public override string ToString()
 		{
-			return FirstName + " " + LastName + " " + Age;
+			return FirstName + " " + LastName + " " + Age + " " + Salary;
 		}
 	}
 }
