@@ -33,6 +33,15 @@ namespace Encapsulation
 
 			Console.WriteLine(circle.Circumference);
 
+			Team team = new Team("ABC");
+			Console.WriteLine(team.Name);
+
+			// Can't access Name because Name is readonly
+			// team.Name = "ABCCC";
+
+			Console.WriteLine(team.Players.Count);
+			// team._players;
+
 			Console.ReadLine();
 		}
 	}
