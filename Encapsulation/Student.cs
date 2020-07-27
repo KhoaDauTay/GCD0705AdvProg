@@ -14,7 +14,7 @@
 
 			// Can't access _age
 			// because _age is private
-			base._age = age + 10;
+			// base._age = age + 10;
 		}
 	}
 }

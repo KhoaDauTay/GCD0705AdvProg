@@ -12,11 +12,11 @@
 
 			// Can't access the _name outside class Person
 			// because _name is private
-			person._name = "ABC";
+			// person._name = "ABC";
 
 			// Can't access _salary outside class Person
 			// because _salary is protected
-			person._salary = 10000;
+			// person._salary = 10000;
 
 			Car car = new Car("ABC", 1000);
 
