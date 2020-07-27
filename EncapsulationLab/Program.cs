@@ -12,6 +12,14 @@ namespace EncapsulationLab
 			person.FirstName = "BBBB";
 
 			Console.WriteLine(person.ToString());
+			try
+			{
+				person.Age = -10;
+			}
+			catch (Exception e)
+			{
+				Console.WriteLine(e.Message);
+			}
 
 			Console.ReadKey();
 		}
