@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRandomList", "CustomR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStack", "CustomStack\CustomStack.csproj", "{0ADF2651-E839-4E17-A7D2-BF74F24AEDAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{32067A65-79E9-488F-BD41-6A22AF5A621A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0ADF2651-E839-4E17-A7D2-BF74F24AEDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ADF2651-E839-4E17-A7D2-BF74F24AEDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ADF2651-E839-4E17-A7D2-BF74F24AEDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32067A65-79E9-488F-BD41-6A22AF5A621A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32067A65-79E9-488F-BD41-6A22AF5A621A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32067A65-79E9-488F-BD41-6A22AF5A621A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32067A65-79E9-488F-BD41-6A22AF5A621A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
