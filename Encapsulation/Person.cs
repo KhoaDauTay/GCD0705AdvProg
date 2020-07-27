@@ -15,6 +15,8 @@
 
 		public int Age;
 
+		public double Salary { get { return Age * 1000; } private set { } }
+
 		public Person(string name, int age, double salary)
 		{
 			_name = name;

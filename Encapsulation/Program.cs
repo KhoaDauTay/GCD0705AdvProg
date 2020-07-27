@@ -1,4 +1,6 @@
-﻿namespace Encapsulation
+﻿using System;
+
+namespace Encapsulation
 {
 	internal class Program
 	{
@@ -21,6 +23,16 @@
 			Car car = new Car("ABC", 1000);
 
 			car.Name = "ABC";
+
+			Circle circle = new Circle(1);
+
+			Console.WriteLine(circle.Area); // 3.14
+			circle.Area = 1;
+			Console.WriteLine(circle.Area); // 3.14
+
+			Console.WriteLine(circle.Circumference);
+
+			Console.ReadLine();
 		}
 	}
 }
