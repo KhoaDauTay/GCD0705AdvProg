@@ -53,5 +53,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Encapsulation\Encapsulation.csproj">
+      <Project>{32067a65-79e9-488f-bd41-6a22af5a621a}</Project>
+      <Name>Encapsulation</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

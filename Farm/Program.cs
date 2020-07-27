@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Encapsulation;
+using System;
 
 namespace Farm
 {
@@ -20,6 +21,10 @@ namespace Farm
 			cat.Meow();
 
 			Console.ReadLine();
+
+			Person person = new Person("ABC", 100, 1000);
+
+			Car car = new Car("ABC", 100);
 		}
 	}
 }

@@ -17,6 +17,10 @@
 			// Can't access _salary outside class Person
 			// because _salary is protected
 			person._salary = 10000;
+
+			Car car = new Car("ABC", 1000);
+
+			car.Name = "ABC";
 		}
 	}
 }
