@@ -1,4 +1,6 @@
-﻿namespace Encapsulation
+﻿using System;
+
+namespace Encapsulation
 {
 	public class Person
 	{
@@ -15,7 +17,18 @@
 
 		public int Age;
 
-		public double Salary { get { return Age * 1000; } private set { } }
+		public double Salary
+		{
+			get
+			{
+				return _salary;
+			}
+			set
+			{
+				if (value < 0) throw new ArgumentException("Salary can't be zero");
+				this._salary = value;
+			}
+		}
 
 		public Person(string name, int age, double salary)
 		{
