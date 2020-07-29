@@ -1,18 +1,10 @@
-﻿using System;
-
-namespace Encapsulation
+﻿namespace Encapsulation
 {
-	internal class Car
+	internal class Car : Vehicle
 	{
-		internal string Name;
-		internal double Price;
-
-		public Car(string name, double price)
+		public Car(int horsePower, double fuel) : base(horsePower, fuel)
 		{
-			Name = name;
-
-			if (price < 0) throw new ArgumentException("Price can;t be Zero");
-			Price = price;
+			DefaultFuelConsumption = 3;
 		}
 	}
 }

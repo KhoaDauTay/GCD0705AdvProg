@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{32067A65-79E9-488F-BD41-6A22AF5A621A}</ProjectGuid>
+    <ProjectGuid>{9F7F2819-9932-427A-A973-8AAB02FD0F4C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Encapsulation</RootNamespace>
-    <AssemblyName>Encapsulation</AssemblyName>
+    <RootNamespace>Interfaces</RootNamespace>
+    <AssemblyName>Interfaces</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="Circle.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="Alien.cs" />
+    <Compile Include="Animal.cs" />
+    <Compile Include="Human.cs" />
+    <Compile Include="ICreature.cs" />
+    <Compile Include="Insect.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Team.cs" />
-    <Compile Include="Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
