@@ -17,6 +17,9 @@
 			Alien alien = new Alien();
 
 			human.Hunt(alien);
+
+			// Can't create an object from an Interface
+			// ICreature creature = new ICreature();
 		}
 	}
 }
