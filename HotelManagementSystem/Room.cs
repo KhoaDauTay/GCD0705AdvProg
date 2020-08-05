@@ -17,7 +17,19 @@ namespace HotelManagementSystem
 
 		public bool IsBooked(DateTime startDate, DateTime endDate)
 		{
-			return true;
+			if (startDate >= endDate)
+			{
+				throw new ArgumentException("EndDate must be greater than StartDate");
+			}
+
+			var isBooked = false;
+
+			foreach (var booking in Bookings)
+			{
+				isBooked = booking.IsBooked(startDate, endDate);
+				if (isBooked) break;
+			}
+			return isBooked;
 		}
 	}
 }

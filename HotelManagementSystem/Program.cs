@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HotelManagementSystem
 {
-	class Program
+	internal class Program
 	{
-		static void Main(string[] args)
+		private static void Main(string[] args)
 		{
+			Hotel hotel = new Hotel("Hotel");
+			hotel.Search(-10, 55);
+
+			Console.ReadLine();
 		}
 	}
 }
