@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace VideoStore
 {
@@ -21,13 +22,23 @@ namespace VideoStore
 		{
 			RentalItems.Add(item);
 		}
+
+		internal void ShowInfo()
+		{
+			throw new NotImplementedException();
+		}
 	}
 
-	class CheckoutScreen
+	internal class CheckoutScreen
 	{
-		void ShowRentalInvoice(RentalInvoice invoice)
+		private void ShowRentalInvoice(RentalInvoice invoice)
 		{
+			if (invoice is null)
+			{
+				throw new System.ArgumentNullException(nameof(invoice));
+			}
 
+			invoice.ShowInfo();
 		}
 	}
 
