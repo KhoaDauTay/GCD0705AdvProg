@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace VideoStore
+﻿namespace VideoStore
 {
-	class Program
+	internal class Program
 	{
-		static void Main(string[] args)
+		private static void Main(string[] args)
 		{
+			Customer customer = new Customer();
+			RentalInvoice invoice = new RentalInvoice(customer);
+
+			CheckoutScreen screen = new CheckoutScreen();
+
+			screen.ShowRentalInvoice(invoice);
 		}
 	}
 }

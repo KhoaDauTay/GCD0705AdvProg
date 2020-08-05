@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassDiagram", "ClassDiagra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStore", "VideoStore\VideoStore.csproj", "{63A13296-E8C3-48EF-BD08-5635241D0283}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagementSystem", "HotelManagementSystem\HotelManagementSystem.csproj", "{27E69682-473E-45A2-8ED8-9622A2EDCF14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{63A13296-E8C3-48EF-BD08-5635241D0283}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63A13296-E8C3-48EF-BD08-5635241D0283}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63A13296-E8C3-48EF-BD08-5635241D0283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E69682-473E-45A2-8ED8-9622A2EDCF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E69682-473E-45A2-8ED8-9622A2EDCF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E69682-473E-45A2-8ED8-9622A2EDCF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E69682-473E-45A2-8ED8-9622A2EDCF14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

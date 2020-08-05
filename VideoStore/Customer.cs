@@ -31,7 +31,7 @@ namespace VideoStore
 
 	internal class CheckoutScreen
 	{
-		private void ShowRentalInvoice(RentalInvoice invoice)
+		public void ShowRentalInvoice(RentalInvoice invoice)
 		{
 			if (invoice is null)
 			{
