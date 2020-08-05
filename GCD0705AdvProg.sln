@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassDiagram", "ClassDiagram\ClassDiagram.csproj", "{8EEC5BF2-910F-4626-A2CA-AE229848EC80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStore", "VideoStore\VideoStore.csproj", "{63A13296-E8C3-48EF-BD08-5635241D0283}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{8EEC5BF2-910F-4626-A2CA-AE229848EC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EEC5BF2-910F-4626-A2CA-AE229848EC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EEC5BF2-910F-4626-A2CA-AE229848EC80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A13296-E8C3-48EF-BD08-5635241D0283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A13296-E8C3-48EF-BD08-5635241D0283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A13296-E8C3-48EF-BD08-5635241D0283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A13296-E8C3-48EF-BD08-5635241D0283}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
